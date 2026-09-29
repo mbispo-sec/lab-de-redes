@@ -33,7 +33,7 @@ Projeto prático desenvolvido para simular a alocação dinâmica de endereços 
 | **Servidor DHCP** | Estático | `192.168.0.1` | `255.255.255.0` (/24) |  192.168.0.1
 | **Gateway Padrão (Simulado)** | \- | `192.168.0.1` | `255.255.255.0` (/24) | 192.168.0.1
 | **Pool DHCP (Início)** | Dinâmico | `192.168.0.2` em diante | `255.255.255.0` (/24) | `192.168.0.1` | 
-| **Clientes (PCs, Laptop, Impressora)** | DHCP | Concedido dinamicamente | `255.255.255.0` (/24) |  
+| **Clientes (PCs, Laptop, Impressora)** | DHCP | Concedido dinamicamente | `255.255.255.0` (/24) | 0.0.0.0
 
 ## ⚙️ Passo a Passo das Configurações
 
