@@ -102,7 +102,7 @@ Utilizando a ferramenta de simulação do Packet Tracer com filtros aplicados pa
 
 ## 👤 Autor
 
-Desenvolvido por **\Marcelo Bispo\**
+Desenvolvido por **Marcelo Bispo**
 
 * [LinkedIn](https://www.linkedin.com/in/marcelo-bispo-718348326/).
 
