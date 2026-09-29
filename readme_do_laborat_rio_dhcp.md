@@ -92,7 +92,7 @@ Utilizando a ferramenta de simulação do Packet Tracer com filtros aplicados pa
 2. Clone este repositório:
 
    ```
-   git clone https://github.com/SEU_USUARIO/lab-dhcp-packet-tracer.git
+   git clone https://github.com/mbispo-sec/lab-dhcp-packet-tracer.git
    
    ```
 
