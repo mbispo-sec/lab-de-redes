@@ -30,16 +30,16 @@ Projeto prático desenvolvido para simular a alocação dinâmica de endereços 
 
 | Dispositivo / Parâmetro | Tipo de Configuração | Endereço IP / Faixa | Máscara de Sub-rede | Gateway Padrão | 
  | ----- | ----- | ----- | ----- | ----- | 
-| **Servidor DHCP** | Estático | `192.168.1.2` | `255.255.255.0` (/24) | `192.168.1.1` | 
-| **Gateway Padrão (Simulado)** | \- | `192.168.1.1` | `255.255.255.0` (/24) | \- | 
-| **Pool DHCP (Início)** | Dinâmico | `192.168.1.10` em diante | `255.255.255.0` (/24) | `192.168.1.1` | 
-| **Clientes (PCs, Laptop, Impressora)** | DHCP | Concedido dinamicamente | `255.255.255.0` (/24) | `192.168.1.1` | 
+| **Servidor DHCP** | Estático | `192.168.0.1` | `255.255.255.0` (/24) |  
+| **Gateway Padrão (Simulado)** | \- | `192.168.0.1` | `255.255.255.0` (/24) | \- | 
+| **Pool DHCP (Início)** | Dinâmico | `192.168.0.2` em diante | `255.255.255.0` (/24) | `192.168.0.1` | 
+| **Clientes (PCs, Laptop, Impressora)** | DHCP | Concedido dinamicamente | `255.255.255.0` (/24) | `192.168..2` | 
 
 ## ⚙️ Passo a Passo das Configurações
 
 ### 1. Configuração do Servidor
 
-1. No `Server0`, configurou-se um IP estático na interface `FastEthernet0` (`192.168.1.2` com máscara `255.255.255.0`).
+1. No `Server0`, configurou-se um IP estático na interface `FastEthernet0` (`192.168.0.1` com máscara `255.255.255.0`).
 
 2. Acesse a aba **Services** > **DHCP**:
 
@@ -47,13 +47,13 @@ Projeto prático desenvolvido para simular a alocação dinâmica de endereços 
 
    * Pool Name: `serverPool`
 
-   * Default Gateway: `192.168.1.1`
+   * Default Gateway: `192.168.0.1`
 
-   * Start IP Address: `192.168.1.10`
+   * Start IP Address: `192.168.0.2`
 
    * Subnet Mask: `255.255.255.0`
 
-   * Maximum number of Users: `50`
+   * Maximum number of Users: `253`
 
    * Clique em **Save**.
 
