@@ -104,6 +104,6 @@ Utilizando a ferramenta de simulação do Packet Tracer com filtros aplicados pa
 
 Desenvolvido por **\[Seu Nome\]**
 
-* [LinkedIn]([https://www.linkedin.com/in/marcelo-bispo-718348326/)
+* [LinkedIn]([https://www.linkedin.com/in/marcelo-bispo-718348326/).
 
 * [GitHub](https://github.com/mbispo-sec).
