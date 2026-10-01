@@ -45,7 +45,7 @@ Projeto prático desenvolvido para simular a alocação dinâmica de endereços 
 
    * Serviço DHCP: **ON**
 
-   * Pool Name: `serverPool`
+   * Pool Name: `CASA`
 
    * Default Gateway: `192.168.0.1`
 
